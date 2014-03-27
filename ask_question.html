@@ -1,0 +1,35 @@
+<!doctype html>
+
+<?php
+include_once("sql.php");
+include_once("utils.php");
+$checked_in_id=check_signedin();
+
+
+
+
+?>
+<title>Ask a question</title>
+<link rel=stylesheet href="blog.css">
+<div id=newform>
+<h1>New entry</h1>
+<form id=newform action=newentry.php method=post style="vertical-align:top">
+<input type=hidden name=add value=add>
+Title: <input type=text name=title size=60 required><br>
+Date: <input type=date name=date xrequired><br>
+Text: <textarea cols=60 rows=10 name=text required></textarea>
+<br>
+Tags:
+<?php
+$tags=sql_get_tags($checked_in_id);
+
+    foreach ($tags as $tag) {
+        echo("<input type=checkbox name=tags[] value='$tag'>$tag</input>\n");
+        }
+?>
+<br>
+New tag(s): <input type=text name=newtags size=40> (separate with commas)
+<br>
+<input type=submit value="Done">
+</form>
+</div>

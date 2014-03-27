@@ -1,0 +1,38 @@
+body{text-align: center;background: url("images/_homebackground.jpg");background-size: 100% 100%;background-attachment:fixed; 
+}
+.homepage{background:rgba(255,255,255,0.5);border: 1px rgb(88,88,88) solid;border-radius: 10px;display: block;
+ margin-top: 30px;margin-bottom:30px;margin-left:auto ;margin-right:auto;width: 700px;text-align: left;
+}
+.homepage_{background:rgba(255,255,255,0.5);border: 1px rgb(88,88,88) solid;border-radius: 10px;display: block;
+ margin-top: 90px;margin-bottom:30px;margin-left:auto ;margin-right:auto;width: 700px;text-align: left;
+}
+#Questions{padding: 40px}
+#answers{padding: 40px}
+ #information{font-family: sans-serif;font-size: 25px; margin-top: 90px;padding:20px 40px 30px 40px;}
+ #profile{background-color: gray;width: 100px;height:100px;display: inline-block;text-align: left;        }
+ .profile{font-family: "Times New Roman"}
+ #ask{text-align: left;width: 700px;display: block;padding: 40px}
+a:link {text-decoration:none;color:black;}
+a:visited {text-decoration:none;color:black;}
+a:hover {text-decoration:none;color:black;}
+a:active {text-decoration:none;color: black}
+div .question{margin-right: auto;margin-left: auto;width: 700px;padding: 10px 0px;font-size:14px;font-family: 'courier'}
+div .answer{margin-right: auto;margin-left:90px;width: 650px;padding: 10px 0px;font-size:18px;font-family: 'courier'}
+div .question2{margin-right: auto;margin-left: auto;width: 700px;padding: 10px 0px;font-size:24px;font-family: 'courier'}
+div .question3{margin-right: auto;margin-left: auto;width: 700px;padding: 10px 0px;font-size:17px;font-family: 'courier'}
+
+.pro_pic{background-size: 100% 100%;height:40px;width:40px;border-radius:5px;display: inline-block;margin-top: 5px}
+#reg{background-image:url(images/_background.jpg)}
+.content{display: inline-block;color:#AFABAF;vertical-align: top;margin: 5px 0px 0px 10px;width:500px;font-size:0.9em;}
+
+.tag{border-radius:2px; background:#F0F0F0;color:#333333;padding: 1px 3px;margin: 4px;font-size: 0.8em}
+.title{font-family:'Trebuchet MS',Helvetica,sans-serif;font-size:1.5em;color: black}
+.text{color: black;font-family: sans-serif;font-size:1.2em;}
+span .grey{color: gray}
+.search{font: 25px 'Trebuchet MS';width: 1000px;margin-right:auto;margin-left: auto;text-align: left;margin-top: 90px}
+#count{position: absolute;left:55%;}
+#newform{position:relative;}
+.answer{position: relative;}
+.s:hover{color: black;background: white}
+.s{width: 35px;height:35px;color:white;background: black;border: grey solid 1px;border-radius: 3px;text-align: center;vertical-align: middle;font-weight:bold;font-size: 1.6em}
+.q{font-size: 1.8em;text-align: center;}

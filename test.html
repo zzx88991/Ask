@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+
+
+<div id=newform>
+<h1>Ask your question</h1>
+<form id=newform action="index.php" method=post style="vertical-align:top">
+Title: <input type=text name=title size=60 required><br>
+Content: <textarea cols=60 rows=10 name=text required></textarea>
+<br>
+Tags:
+<?php
+    foreach ($tags as $tag) {
+        echo("<input type=checkbox name=tags[] value='$tag'>$tag</input>\n");
+        }
+?>
+<br>
+New tag(s): <input type=text name=newtags size=40> (separate with commas)
+<br>
+<input type=submit value="Submit">
+</form>
+</div>
+
+
+
+</html>
